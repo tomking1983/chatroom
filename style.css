@@ -87,4 +87,5 @@ nav {
 /* footer text to white */
 footer {
     color: white!important;
+    margin-top: 10px;
 }
