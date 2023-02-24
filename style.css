@@ -84,6 +84,19 @@ nav {
     margin-bottom: 10px;
 }
 
+/* Member Area */
+.card {
+    border: none;
+    padding: 10px
+}
+.card-img-top {
+    border-radius: 50px !important;;
+}
+
+.list-group-item {
+    margin-bottom: 5px;
+}
+
 /* footer text to white */
 footer {
     color: white!important;
