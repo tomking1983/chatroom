@@ -13,9 +13,7 @@ nav {
 }
 
 .nav-menu-links {
-    font-size: 1rem;
-    /* right hand side */
-    /* margin-left: auto; */
+    font-size: 20px;
     margin-left: 50px;
 }
 
@@ -32,15 +30,7 @@ nav {
 .logout {
     margin-left: 180px;
 }
-
-
-.chat-online {
-    color: #34ce57
-}
-
-.chat-offline {
-    color: #e4606d
-}
+/* end nav */
 
 .chat-messages {
     display: flex;
@@ -84,7 +74,7 @@ nav {
     margin-bottom: 10px;
 }
 
-/* Member Area */
+/* member-area.html */
 .card {
     border: none;
     padding: 10px
@@ -92,6 +82,7 @@ nav {
 .card-img-top {
     border-radius: 50px !important;;
 }
+/* end member-area.html */
 
 .list-group-item {
     margin-bottom: 5px;
