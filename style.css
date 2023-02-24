@@ -1,0 +1,90 @@
+body{margin-top:20px;}
+
+/* nav */
+nav {
+    margin-bottom: 10px;
+}
+
+
+/* change size of navbar image */
+.navbar-brand img {
+    height: 100px;
+    margin-left: 100px;
+}
+
+.nav-menu-links {
+    font-size: 1rem;
+    /* right hand side */
+    /* margin-left: auto; */
+    margin-left: 50px;
+}
+
+/* padding li items in nav */
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+
+.navbar-collapse {
+  justify-content: flex-end!important;
+}
+
+.logout {
+    margin-left: 180px;
+}
+
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+
+.leave-btn {
+    background-color: red;
+    border: red !important;
+    margin-bottom: 10px;
+}
+
+/* footer text to white */
+footer {
+    color: white!important;
+}
